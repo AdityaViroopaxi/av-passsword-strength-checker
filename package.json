@@ -1,0 +1,17 @@
+{
+  "name": "av-password-strength-checker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "av-password-strength-checker": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "av-password-strength-checker": "^1.0.0"
+  }
+}

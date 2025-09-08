@@ -1,6 +1,6 @@
 {
   "name": "av-password-strength-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "bin": {
     "av-password-strength-checker": "src/cli.js"

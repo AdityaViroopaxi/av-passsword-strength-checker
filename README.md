@@ -99,11 +99,12 @@ Feedback messages indicate criteria met and what is missing.
 ## 6. File Structure
 
 ```
-src/index.js       # Core logic for password strength evaluation
-src/cli.js         # Command-line interface (CLI)
-test/index.test.js # Jest-based automated tests for code reliability
-package.json       # Project metadata, configuration, dependencies
-README.txt         # Project documentation
+src/index.js                 # Core logic for password strength evaluation
+src/cli.js                   # Command-line interface (CLI)
+test/index.test.js           # Jest-based automated tests for code reliability
+test_package\test-package.js # program with predefined test cases
+package.json                 # Project metadata, configuration, dependencies
+README.md                    # Project documentation
 ```
 
 ---

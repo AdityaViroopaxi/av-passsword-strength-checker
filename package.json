@@ -1,10 +1,10 @@
 {
   "name": "av-password-strength-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
- "bin": {
-  "av-password-strength-checker": "src/cli.js"
-},
+  "bin": {
+    "av-password-strength-checker": "src/cli.js"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -28,5 +28,4 @@
     "url": "https://github.com/AdityaViroopaxi/av-passsword-strength-checker/issues"
   },
   "homepage": "https://github.com/AdityaViroopaxi/av-passsword-strength-checker#readme"
-
 }

@@ -2,7 +2,7 @@
 
 A lightweight password strength checker for Node.js projects.
 
-This package enables the evaluation of password strength based on multiple criteria. It provides precise feedback for users to create strong passwords. The tool can be used as a Node.js module or a command-line utility.
+This package enables the evaluation of password strength based on multiple criteria. It provides precise feedback for users to create strong passwords. The tool can be used as a Node.js module.
 
 ---
 
@@ -10,7 +10,6 @@ This package enables the evaluation of password strength based on multiple crite
 
 - Evaluates password length, lowercase, uppercase, numeric, and special character criteria  
 - Provides feedback on missing requirements for strengthening passwords  
-- CLI tool for command-line password checking  
 - Easy integration as a Node.js module  
 - No external runtime dependencies apart from dev/testing  
 - Includes automated tests with Jest  
@@ -33,37 +32,22 @@ Install with npm:
 npm install av-password-strength-checker
 ```
 
-For global CLI usage:
-
-```bash
-npm install -g av-password-strength-checker
-```
-
 ---
 
 ## 4. Usage
-
-### 4.1 As a Node.js Library
-
 ```javascript
 const { checkPassword } = require('av-password-strength-checker');
 
-const result = checkPassword('MyPassword123!');
+const result = checkPassword('MyPassword123');
 console.log(`Strength: ${result.strength}`);
 console.log('Feedback:');
 result.feedback.forEach(msg => console.log(`- ${msg}`));
 ```
 
-### 4.2 As a CLI Tool (after global installation)
-
-```bash
-password-strength-checker YourPassword123!
-```
-
 **Sample Output:**
 
 ```
-Password: "YourPassword123!"
+Password: "YourPassword123"
 Strength: GOOD (4/5)
 ✓ Good length
 ✓ Has lowercase
